@@ -1,0 +1,14 @@
+Request Payload:
+
+Username: 1234427, Fullname: "Mahaveerchand, MaheshKumar", Role: "Admin,DSC,DDO,DPO,RFO",…}
+Description: "SUCCESS"
+Fullname: "Mahaveerchand, MaheshKumar"
+Module: "landingpage"
+ResourceUrl: "/"
+Role: "Admin,DSC,DDO,DPO,RFO"
+Username: 1234427
+
+
+Response:
+
+{"Status":"OK","Message":"","Duration":3076114,"DurationTxt":"3.076114ms","Data":true,"EncoderID":""}
