@@ -1,3 +1,19 @@
+nohup.log
+_____
+
+------------------------------------------------------------------------
+INFO 2019/10/15 14:44:58 | Access | /users/checksession | 10.65.117.199:49274
+INFO 2019/10/15 14:44:58 | Access | /users/saveusage | 10.65.117.199:49274
+INFO 2019/10/15 14:44:59 | Access | /dsc/getedmpddconsumptiontable | 10.65.117.199:49274
+--------------------------------------------------------------
+ Function   :  eaciit/datacatalogue/webapp/services.(*DSCService).GetEdmpDDConsumptionTable
+ File Name  :  edmp.sql
+ Query Name :  edmp-dd-consumption
+--------------------------------------------------------------
+ERROR 2019/10/15 14:44:59 panic detected on /dsc/getedmpddconsumptiontable: reflect: call of reflect.Value.Type on zero Value
+
+___________________________________________________________________________________________________________
+
 Request Payload:
 Filters: {,…},…}
 Filters: {,…}
