@@ -1,3 +1,49 @@
+Query file:
+
+
+infadm@HKLVADAPP463[queryfiles] $ vi edmp.sql
+-- name: edmp-dd-dropdowns
+SELECT DISTINCT
+        COUNTRY AS COUNTRY,
+        BUSINESS_SEGMENT AS BUSINESS_SEGMENT,
+        SOURCE_SYSTEM AS SOURCE_SYSTEM,
+        CLUSTER_NAME AS CLUSTER_NAME,
+        TIER AS TIER,
+        ITAM AS ITAM
+    FROM
+        TBL_EDMP
+
+-- name: edmp-dd-technical
+SELECT DISTINCT
+        COUNTRY AS COUNTRY,
+        BUSINESS_SEGMENT AS BUSINESS_SEGMENT,
+        SOURCE_SYSTEM AS SOURCE_SYSTEM,
+        CLUSTER_NAME AS CLUSTER_NAME,
+        TIER AS TIER,
+        ITAM AS ITAM,
+        EDM_SOURCE_SYSTEM_NAME AS EDM_SOURCE_SYSTEM_NAME,
+        DATABASE_NAME AS DATABASE_NAME,
+        TABLE_NAME AS TABLE_NAME,
+        COLUMN_NAME AS COLUMN_NAME,
+        DATA_TYPE AS DATA_TYPE,
+        '' AS COLUMN_LENGTH,
+        NULLABLE AS NULLABLE,
+        PRIMARY_KEY AS PRIMARY_KEY,
+        CERTIFIED AS CERTIFIED,
+        PROFILE_RESULTS AS PROFILE_RESULTS,
+        DATA_LINEAGE AS DATA_LINEAGE,
+        '' AS BUSINESS_ALIAS_NAME,
+        '' AS BUSINESS_ALIAS_DESCRIPTION,
+        CDE AS CDE,
+        DATA_LENGTH AS DATA_LENGTH,
+        '' AS EXAMPLE,
+        '' AS DERIVED,
+        '' AS DERIVATION_LOGIC,
+"edmp.sql" [noeol] 107L, 3477C        
+
+_________________________________________________________
+
+
 nohup.log
 _____
 
